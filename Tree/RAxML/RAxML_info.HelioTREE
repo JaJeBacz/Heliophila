@@ -1,0 +1,101 @@
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 308 distinct alignment patterns
+
+Found 0 invariant alignment patterns that correspond to 0 columns 
+Proportion of gaps and completely undetermined characters in this alignment: 1.60%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 10 inferences on the original alignment using 10 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA+P-Invar model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA+P-Invar Model parameters will be estimated up to an accuracy of 0.0010000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 308
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -p 07008 -s Helio_trim.fas -m GTRGAMMAI -#10 -n HelioTREE -T 10 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.235 0.262 0.251 0.253 
+
+Inference[0]: Time 6.433084 GAMMA+P-Invar-based likelihood -5902.198794, best rearrangement setting 5
+alpha[0]: 0.994426 invar[0]: 0.181709 rates[0] ac ag at cg ct gt: 1.380818 2.649937 2.134228 0.431970 4.745816 1.000000 
+Inference[1]: Time 4.713079 GAMMA+P-Invar-based likelihood -5903.850257, best rearrangement setting 5
+alpha[0]: 0.981289 invar[0]: 0.180438 rates[0] ac ag at cg ct gt: 1.323151 2.571984 2.085891 0.410887 4.583805 1.000000 
+Inference[2]: Time 6.038795 GAMMA+P-Invar-based likelihood -5902.150066, best rearrangement setting 5
+alpha[0]: 0.986809 invar[0]: 0.180005 rates[0] ac ag at cg ct gt: 1.378915 2.658507 2.112411 0.431165 4.737144 1.000000 
+Inference[3]: Time 5.689168 GAMMA+P-Invar-based likelihood -5902.095166, best rearrangement setting 10
+alpha[0]: 0.978523 invar[0]: 0.176783 rates[0] ac ag at cg ct gt: 1.368585 2.643387 2.107192 0.440831 4.688363 1.000000 
+Inference[4]: Time 4.637823 GAMMA+P-Invar-based likelihood -5903.867278, best rearrangement setting 5
+alpha[0]: 0.984879 invar[0]: 0.181276 rates[0] ac ag at cg ct gt: 1.332586 2.585199 2.106901 0.410642 4.618100 1.000000 
+Inference[5]: Time 5.139337 GAMMA+P-Invar-based likelihood -5902.179361, best rearrangement setting 5
+alpha[0]: 0.993700 invar[0]: 0.180377 rates[0] ac ag at cg ct gt: 1.356830 2.637864 2.113977 0.440184 4.652520 1.000000 
+Inference[6]: Time 5.700850 GAMMA+P-Invar-based likelihood -5902.344791, best rearrangement setting 5
+alpha[0]: 0.986733 invar[0]: 0.180598 rates[0] ac ag at cg ct gt: 1.355350 2.619594 2.091009 0.417521 4.651520 1.000000 
+Inference[7]: Time 8.504048 GAMMA+P-Invar-based likelihood -5902.387052, best rearrangement setting 15
+alpha[0]: 0.994910 invar[0]: 0.182412 rates[0] ac ag at cg ct gt: 1.362064 2.627236 2.111149 0.417289 4.684666 1.000000 
+Inference[8]: Time 5.152175 GAMMA+P-Invar-based likelihood -5903.226563, best rearrangement setting 5
+alpha[0]: 0.978434 invar[0]: 0.177927 rates[0] ac ag at cg ct gt: 1.374176 2.637856 2.098916 0.431633 4.712426 1.000000 
+Inference[9]: Time 5.003301 GAMMA+P-Invar-based likelihood -5901.961581, best rearrangement setting 10
+alpha[0]: 0.986591 invar[0]: 0.177758 rates[0] ac ag at cg ct gt: 1.354254 2.618100 2.082290 0.436987 4.651154 1.000000 
+
+
+Conducting final model optimizations on all 10 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5901.617137 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.0
+Inference[1] final GAMMA-based Likelihood: -5903.498492 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.1
+Inference[2] final GAMMA-based Likelihood: -5901.609423 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.2
+Inference[3] final GAMMA-based Likelihood: -5901.493867 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.3
+Inference[4] final GAMMA-based Likelihood: -5903.498287 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.4
+Inference[5] final GAMMA-based Likelihood: -5901.493761 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.5
+Inference[6] final GAMMA-based Likelihood: -5901.859208 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.6
+Inference[7] final GAMMA-based Likelihood: -5901.859054 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.7
+Inference[8] final GAMMA-based Likelihood: -5902.654453 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.8
+Inference[9] final GAMMA-based Likelihood: -5901.273002 tree written to file /home/baczynski/RAxML/RAxML_result.HelioTREE.RUN.9
+
+
+Starting final GAMMA-based thorough Optimization on tree 9 likelihood -5901.273002 .... 
+
+Final GAMMA-based Score of best tree -5901.272881
+
+Program execution info written to /home/baczynski/RAxML/RAxML_info.HelioTREE
+Best-scoring ML tree written to: /home/baczynski/RAxML/RAxML_bestTree.HelioTREE
+
+Overall execution time: 60.432596 secs or 0.016787 hours or 0.000699 days
+
